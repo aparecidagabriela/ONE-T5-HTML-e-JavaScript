@@ -2,13 +2,23 @@
 
 <script>
 
-  var ano = 2024;
-  var puloLinha = "<br><br><br>"
+  function pulaLinha() {
 
-  document.write("Flávio tem " + (ano - 1977) + " anos", puloLinha);
-  document.write("Bruno tem " + (ano - 1966) + " anos", puloLinha);
+    document.write("<br><br>");
+
+  };
+
+  var ano = 2024;
+
+  document.write("Flávio tem " + (ano - 1977) + " anos");
+
+  pulaLinha();
+
+  document.write("Bruno tem " + (ano - 1966) + " anos");
+
+  pulaLinha();
 
   ano = 2026
-  document.write("Eduardo tem " + (ano - 1940) + " anos", puloLinha);
+  document.write("Eduardo tem " + (ano - 1940) + " anos");
 
 </script>
