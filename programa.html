@@ -8,17 +8,22 @@
 
   };
 
+  function mostra(frase) {
+
+    document.write(frase);
+    pulaLinha();
+  
+  };
+
   var ano = 2024;
 
-  document.write("Flávio tem " + (ano - 1977) + " anos");
+  mostra("Flávio tem " + (ano - 1977) + " anos");
 
-  pulaLinha();
-
-  document.write("Bruno tem " + (ano - 1966) + " anos");
-
-  pulaLinha();
+  mostra("Bruno tem " + (ano - 1966) + " anos");
 
   ano = 2026
-  document.write("Eduardo tem " + (ano - 1940) + " anos");
+
+  mostra("Eduardo tem " + (ano - 1940) + " anos");
+
 
 </script>
