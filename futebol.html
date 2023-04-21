@@ -1,0 +1,28 @@
+<meta charset="utf-8">
+
+<script>
+
+  function pulaLinha() {
+
+    document.write("<br><br>");
+
+  };
+
+  function mostra(frase) {
+
+    document.write(frase);
+    pulaLinha();
+
+  };
+
+  // Lemos prompt() sempre como um texto.
+  // Sempre que formos ler uma entrada, e a intenção for trabalhar com números, temos que fazer o parseInt() para que o valor digitado, que por padrão é lido como texto, seja interpretado como um número.
+
+  var vitorias = parseInt(prompt("Qual o número de vitórias do seu time?"));
+  var empates = parseInt(prompt("Qual o número de empates?"));
+
+  var pontos = vitorias * 3 + empates;
+
+  mostra("Seu time tem "+ pontos + " pontos")
+
+</script>
