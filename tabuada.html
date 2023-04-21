@@ -1,0 +1,42 @@
+<meta charset="utf-8">
+
+<script>
+
+  function pulaLinha() {
+
+    document.write("<br><br>");
+
+  };
+
+  function mostra(frase) {
+
+    document.write(frase);
+    pulaLinha();
+
+  };
+
+
+  // o for() deixa claro tudo o que é necessário para definir a repetição, ou seja, a variável que será incrementada, a condição que a compara com o valor e, por último, o critério de incremento da variável.
+
+  for ( var multiplicador = 1; multiplicador <= 10; multiplicador++) {
+
+      mostra(7 * multiplicador);
+
+  };
+
+  mostra("FIM");
+
+  // No while() ocorre o mesmo, entretanto, a inicialização da variável é externa, e o incremento da variável acontece dentro de seu bloco.
+
+  var multiplicador = 1;
+  while(multiplicador <= 10) {
+
+    mostra(7 * multiplicador);
+    multiplicador = multiplicador + 1;
+
+  };
+
+  // Há um atalho para incrementarmos uma variável, sempre somando 1. Trata-se do total++. Isso se chama pós incremento. 
+
+
+  </script>
