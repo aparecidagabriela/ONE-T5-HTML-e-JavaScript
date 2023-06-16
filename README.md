@@ -1,4 +1,4 @@
-# ONE-T5-HTML-e-JavaScript
+# ONE - Oracle Next Education - Turma 5
 Curso de JavaScript e lógica de programação
 
 ## [JavaScript e HTML: desenvolva um jogo e pratique lógica de programação](https://cursos.alura.com.br/course/javascript-logica-programacao-javascript-html)
